@@ -5,14 +5,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import solutions.leetcode.longest_Common_Prefix;
 import solutions.leetcode.romanToInteger;
 import solutions.leetcode.two_Sum;
+import solutions.leetcode.valid_Parentheses;
 
 @SpringBootApplication
 public class AlgorithmApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AlgorithmApplication.class, args);
-		String[] arr = new String[]{"flower","flower","flower","flower"};
-		var a = longest_Common_Prefix.longestCommonPrefix(arr);
+		var s = "()";
+		var a = valid_Parentheses.isValid(s);
+		//		String[] arr = new String[]{"flower","flower","flower","flower"};
+//		var a = longest_Common_Prefix.longestCommonPrefix(arr);
 
 //		var a = romanToInteger.romanToInt("MCMXCIV");
 //		var b =1;
