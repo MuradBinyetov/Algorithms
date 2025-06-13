@@ -2,25 +2,15 @@ package com.algorithm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import solutions.leetcode.longest_Common_Prefix;
-import solutions.leetcode.romanToInteger;
-import solutions.leetcode.two_Sum;
-import solutions.leetcode.valid_Parentheses;
+import solutions.leetcode.*;
 
 @SpringBootApplication
 public class AlgorithmApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AlgorithmApplication.class, args);
-		var s = "()";
-		var a = valid_Parentheses.isValid(s);
-		//		String[] arr = new String[]{"flower","flower","flower","flower"};
-//		var a = longest_Common_Prefix.longestCommonPrefix(arr);
-
-//		var a = romanToInteger.romanToInt("MCMXCIV");
-//		var b =1;
-//		 int[] arr = new int[] {-1,-2,-3,-4,-5};
-//		var twoSum = two_Sum.twoSum(arr,-8);
+		var arr = new int[]{3,2,2,3};
+		var a= remove_Element.removeElement(arr,3);
 	}
 
 }
