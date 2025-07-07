@@ -9,8 +9,8 @@ public class AlgorithmApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AlgorithmApplication.class, args);
-		var arr = new int[]{3,2,2,3};
-		var a= remove_Element.removeElement(arr,3);
+		int m = 5;
+		pascals_Triangle.generate(m);
 	}
 
 }
