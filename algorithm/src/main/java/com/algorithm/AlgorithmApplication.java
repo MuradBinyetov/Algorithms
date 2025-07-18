@@ -9,8 +9,7 @@ public class AlgorithmApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AlgorithmApplication.class, args);
-		int m = 5;
-		pascals_Triangle.generate(m);
+		number_of_1_Bits.hammingWeight(11);
 	}
 
 }
