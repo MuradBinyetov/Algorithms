@@ -9,7 +9,8 @@ public class AlgorithmApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AlgorithmApplication.class, args);
-		number_of_1_Bits.hammingWeight(11);
+        int[] nums = {3,2,1};
+        number_Of_Segments_In_String.countSegments("                ");
 	}
 
 }
